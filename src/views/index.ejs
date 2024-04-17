@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <%- include('partials/head') %>
+    <title><%= title %></title>
+</head>
+<body>
+    <%- include('partials/navigation') %>
+<!-- Sobre mí -->
+<section id="sobre-mi" class=" py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 mx-auto text-center">
+          <img src="img/yo.jpg" alt="Foto" class="img-fluid rounded-circle mb-4 photo-1" style="width: 400px; height: 400px;">
+          <h2 class="section-title mb-4 t-text fw-bold ">Eileen <span class="t-text" style="color: #b151f0;">Cano</span></h2>
+          <h4 class="align-content-md-center pb-3 ">Desarrolladora de Software</h4>
+          <a href="#" class="btn btn-primary mr-2 btn-color fw-bold ">Descargar CV</a>
+          <ul class="list-inline mb-5 pt-5 ">
+            <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f fa-xl" style="color: #b151f0;"></i></a></li>
+            <li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-xl " style="color: #b151f0;"></i></a></li>
+            <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in fa-xl " style="color: #b151f0;"></i></a></li>
+            <li class="list-inline-item"><a href="#"><i class="fab fa-github fa-xl " style="color: #b151f0;"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+      
+<%- include('partials/footer') %>
+</body>
+</html>

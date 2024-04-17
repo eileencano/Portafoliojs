@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <%- include('partials/head') %>
+    <title><%= title %></title>
+</head>
+<body>
+    <%- include('partials/navigation') %>
+    
+<!-- Portafolio -->
+<section id="portafolio" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-5 t-text fw-bold ">Porta<span style="color: #b151f0;">folio</span></h2>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="card mb-4">
+            <img src="img/project1.png" class="card-img-top" alt="Proyecto 1">
+            <div class="card-body">
+              <h5 class="card-title">Mi primer portafolio</h5>
+              <a href="#" class="btn btn-color text-white  ">Ver mas...</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card mb-4">
+            <img src="img/project2.png" class="card-img-top" alt="Proyecto 2">
+            <div class="card-body">
+              <h5 class="card-title">Guia de paises implementando apis</h5>
+              <a href="#" class="btn btn-color text-white ">Ver mas...</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card mb-4">
+            <img src="img/project3.png" class="card-img-top" alt="Proyecto 3">
+            <div class="card-body">
+              <h5 class="card-title">Implementando apis de chistes</h5>
+              <a href="#" class="btn btn-color text-white ">Ver mas...</a>
+            </div>
+          </div>
+        </div>
+        <!-- Agrega más tarjetas de proyectos aquí si es necesario -->
+      </div>
+    </div>
+  </section>
+
+    <%- include('partials/footer') %>
+</body>
+</html>
